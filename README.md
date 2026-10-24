@@ -32,7 +32,7 @@ UNION
 END_UNION
 END_TYPE
 ---
-
+```
 ## 3. Wireshark ile Ağ ve Paket Analizi
 
 Proses çalışırken loopback arayüzü (port 502) üzerinden Modbus TCP trafiği dinlenmiştir. Görselde, PLC'nin FC 16 (Write Multiple Registers) fonksiyonu ile 20 numaralı register'dan başlayarak proses verilerini (canlı sıcaklık, parti sayısı, çalışma süresi) tek pakette sunucuya başarıyla yazdığı doğrulanmaktadır.
