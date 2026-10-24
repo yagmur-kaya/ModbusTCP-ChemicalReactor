@@ -1,0 +1,6 @@
+TYPE DUT :
+UNION
+	canliDeger:REAL;
+	Words:ARRAY[0..1] OF WORD;
+END_UNION
+END_TYPE
